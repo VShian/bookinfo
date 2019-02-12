@@ -1,0 +1,8 @@
+PYTHON LIBRARIES:
+> numpy
+> opencv
+> pytesseract
+> PIL
+
+LINUX PACKAGES:
+> teserract
