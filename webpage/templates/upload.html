@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<center>
+	<h2>Upload Image</h2>
+	<div style="padding: 50px 50px 75px 100px;">
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="myfile"><br>
+    <button type="submit">Upload</button>
+  </form>
+</div>
+
+  {% if error %}
+  <div>{{ error }}</div>
+  {% endif %}
+
+  {% if uploaded_file_url %}
+  <div>
+  {% for item in text %}
+    <p>{{item}}</p>
+  {% endfor %}
+  </div>
+  {% endif %}
+</center>
+{% endblock %}
