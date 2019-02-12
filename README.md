@@ -1,4 +1,5 @@
 # bookinfo
+
 **Requirements:**
 
 _Python3 Libraries:_
@@ -8,12 +9,12 @@ _Python3 Libraries:_
 * PIL==1.1.7
 * Numpy
 
-_ Linux Packages: _
+_Linux Packages:_
 
 * tesseract-ocr 
 * libtesseract-dev
 
-** Steps to run: **
+**Steps to run:**
 1. Run cmd: ` python manage.py runserver`
 1. Open link http://127.0.0.1:8000/ in browser
 1. Upload an image for whose text has to be extracted
