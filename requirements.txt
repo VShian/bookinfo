@@ -1,5 +1,4 @@
 django
 opencv-python
 pytesseract
-PIL
-Numpy
+numpy
