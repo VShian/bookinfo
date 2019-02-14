@@ -1,4 +1,3 @@
 django
 opencv-python
 pytesseract
-numpy
