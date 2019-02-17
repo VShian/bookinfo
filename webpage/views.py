@@ -4,7 +4,7 @@ from django.core.files.storage import FileSystemStorage
 
 import os
 from pytesseract import image_to_string
-import cv2
+# import cv2
 import numpy as np
 from PIL import Image
 
